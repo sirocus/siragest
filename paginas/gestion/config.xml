@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+	<nombre>Gestión</nombre>
+	<icono>fa fa-gears fa-fw</icono>		
+	<archivo>#</archivo>
+	<lvl2>
+		<nombre>Usuarios</nombre>
+		<icono>fa fa-user</icono>		
+		<archivo>paginas/gestion/usuarios/usuarios.php</archivo>
+		<operaciones>
+			<nombre>Nuevo</nombre>
+			<icono>fa fa-plus-square</icono>		
+			<archivo>paginas/gestion/usuarios/usuarios_nuevo.php</archivo>		
+		</operaciones>
+		<operaciones>
+			<nombre>Editar</nombre>
+			<icono>fa fa-edit</icono>		
+			<archivo>paginas/gestion/usuarios/usuarios_nuevo.php</archivo>		
+		</operaciones>
+		<operaciones>
+			<nombre>Eliminar</nombre>
+			<icono>fa fa-trash-o</icono>		
+			<archivo>paginas/gestion/usuarios/usuarios_eliminar.php</archivo>		
+		</operaciones>		
+	</lvl2>
+	<lvl2>
+		<nombre>Apps</nombre>
+		<icono>fa fa-code-fork</icono>			
+		<archivo>paginas/gestion/apps/apps.php</archivo>
+	</lvl2>
+	<lvl2>
+		<nombre>Roles</nombre>
+		<icono>fa fa-group</icono>			
+		<archivo>paginas/gestion/roles/roles.php</archivo>
+		<operaciones>
+			<nombre>Nuevo</nombre>
+			<icono>fa fa-plus-square</icono>		
+			<archivo>paginas/gestion/roles/roles_nuevo.php</archivo>		
+		</operaciones>
+		<operaciones>
+			<nombre>Editar</nombre>
+			<icono>fa fa-edit</icono>		
+			<archivo>paginas/gestion/roles/roles_nuevo.php</archivo>		
+		</operaciones>
+		<operaciones>
+			<nombre>Eliminar</nombre>
+			<icono>fa fa-trash-o</icono>		
+			<archivo>paginas/gestion/roles/roles_eliminar.php</archivo>		
+		</operaciones>		
+	</lvl2>				
+</item>

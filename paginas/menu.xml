@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+	<nombre>GENERAL</nombre>
+	<icono>fa fa-sitemap fa-fw</icono>		
+	<archivo>gestion/config.xml</archivo>
+	<lvl2>
+		<nombre>Gestión</nombre>
+		<icono>fa fa-sitemap fa-fw</icono>		
+		<archivo>#</archivo>		
+		<lvl3>
+			<nombre>Usuarios</nombre>
+			<icono>fa fa-users fa-fw</icono>		
+			<archivo>gestion/usuarios/usuarios.php</archivo>		
+			<lvl4>
+				<nombre>acción nuevo</nombre>	
+				<accion>nuevo</accion>						
+				<archivo>usuarios/usuarios_nuevo.php</archivo>		
+			</lvl4>				
+			<lvl4>
+				<nombre>acción editar</nombre>	
+				<accion>nuevo</accion>						
+				<archivo>usuarios/usuarios_nuevo.php</archivo>		
+			</lvl4>								
+		</lvl3>
+		<lvl3>
+			<nombre>Roles</nombre>
+			<icono>fa fa-users fa-fw</icono>		
+			<archivo>roles/roles.php</archivo>		
+		</lvl3>	
+		<lvl3>
+			<nombre>Apps</nombre>
+			<icono>fa fa-users fa-fw</icono>		
+			<archivo>apps/apps.php</archivo>				
+		</lvl3>														
+	</lvl2>
+</item>

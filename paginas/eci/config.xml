@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<item>
+	<nombre>ECI</nombre>
+	<icono>fa fa-briefcase fa-fw</icono>		
+	<config>paginas/eci/config_eci.php</config>
+	<lvl2>
+		<nombre>Servicios</nombre>
+		<icono>fa fa-cube</icono>		
+		<archivo>paginas/eci/servicios/servicios.php</archivo>
+		<operaciones>
+			<nombre>Nuevo</nombre>
+			<icono>fa fa-plus-square</icono>		
+			<archivo>paginas/eci/servicios/servicios_nuevo.php</archivo>		
+		</operaciones>
+		<operaciones>
+			<nombre>Editar</nombre>
+			<icono>fa fa-edit</icono>		
+			<archivo>paginas/eci/servicios/servicios_nuevo.php</archivo>		
+		</operaciones>
+		<operaciones>
+			<nombre>Eliminar</nombre>
+			<icono>fa fa-trash-o</icono>		
+			<archivo>paginas/eci/servicios/servicios_eliminar.php</archivo>		
+		</operaciones>				
+	</lvl2>
+	<lvl2>
+		<nombre>Subservicios</nombre>
+		<icono>fa fa-cubes</icono>			
+		<archivo>paginas/eci/subservicios/subservicios.php</archivo>
+		<operaciones>
+			<nombre>Nuevo</nombre>
+			<icono>fa fa-plus-square</icono>		
+			<archivo>paginas/eci/subservicios/subservicios_nuevo.php</archivo>		
+		</operaciones>
+		<operaciones>
+			<nombre>Editar</nombre>
+			<icono>fa fa-edit</icono>		
+			<archivo>paginas/eci/subservicios/subservicios_nuevo.php</archivo>		
+		</operaciones>
+		<operaciones>
+			<nombre>Eliminar</nombre>
+			<icono>fa fa-trash-o</icono>		
+			<archivo>paginas/eci/subservicios/subservicios_eliminar.php</archivo>		
+		</operaciones>			
+	</lvl2>	
+	<lvl2>
+		<nombre>Asignaciones</nombre>
+		<icono>fa fa-sitemap</icono>			
+		<archivo>paginas/eci/asignaciones/asignaciones.php</archivo>	
+	</lvl2>
+	<lvl2>
+		<nombre>Horas x Servicio/Persona</nombre>
+		<icono>fa fa-user</icono>			
+		<archivo>paginas/eci/horaspersona/horaspersona.php</archivo>	
+	</lvl2>					
+	<lvl2>
+		<nombre>Horas x Servicio/Grupo</nombre>
+		<icono>fa fa-group</icono>			
+		<archivo>paginas/eci/horasgrupo/horasgrupo.php</archivo>	
+	</lvl2>	
+					
+</item>
