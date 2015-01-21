@@ -5,15 +5,15 @@
 	switch($nombreServer){
 		default:
 		case 'localhost':		
-			$bbdd=array('HOSTNAME'=>'localhost','USERNAME'=>'root','PASSWORD'=>'C4d1n0r$','DATABASE'=>'siragest');
+			$bbdd=array('HOSTNAME'=>'localhost','USERNAME'=>'root','PASSWORD'=>'#','DATABASE'=>'siragest');
 			define("URL","http://localhost/webs/siragest/");				
 			break;
 		case '192.168.1.231':			
-			$bbdd=array('HOSTNAME'=>'localhost','USERNAME'=>'root','PASSWORD'=>'C4d1n0r$','DATABASE'=>'siragest');
+			$bbdd=array('HOSTNAME'=>'localhost','USERNAME'=>'root','PASSWORD'=>'#','DATABASE'=>'siragest');
 			define("URL","http://192.168.1.231/siragest/");						
 			break;
 		case 'apps.gesgrup.es':
-			$bbdd=array('HOSTNAME'=>'localhost','USERNAME'=>'root','PASSWORD'=>'C4d1n0r$','DATABASE'=>'siragest');
+			$bbdd=array('HOSTNAME'=>'localhost','USERNAME'=>'root','PASSWORD'=>'#','DATABASE'=>'siragest');
 			define("URL","http://apps.gesgrup.es/");						
 			break;		
 	}						
